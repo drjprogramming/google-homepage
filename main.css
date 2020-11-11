@@ -6,25 +6,32 @@ li {
     display: inline;
 }
 
-.topleft {
+header {
     display: inline-block;
-    position: relative;
-    top: 0px;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+}
+
+.topleft {
+    display: flex;
+    margin-top: 0px;
     left: 0px;
 }
 
 .topright {
-    display: inline-block;
     position: relative;
     float: right;
-    top: 0px;
+    margin-top: 0px;
     right: 30px;
 }
 
 .logo {
-    display: flex;
     align-items: center;
     justify-content: center;
+    width: 100px;
     margin-top: 15px;
   }
 
@@ -33,9 +40,9 @@ input[type="text"]{
 }
 
 .search {
-    display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 25px;
     margin-top: 15px;
 }
 
@@ -46,28 +53,26 @@ input[type="button"]{
 }
 
 .buttonleft {
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
 }
 
 .buttonright {
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
 }
 
+footer {
+    margin-bottom: 0;
+}
+
 .bottomleft {
-    display: inline-block;
-    position: relative;
-    bottom: 0;
     left: 0;
 }
 
 .bottomright {
-    display: inline-block;
-    position: relative;
     float: right;
-    bottom: 0;
     right: 30px;
 }
