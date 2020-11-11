@@ -1,8 +1,35 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.topleft {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.topright {
+    display: inline-block;
+    position: relative;
+    float: right;
+    top: 0px;
+    right: 30px;
+}
+
 .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 15px;
+  }
+
+input[type="text"]{
+    width: 300px;
 }
 
 .search {
@@ -10,4 +37,37 @@
     align-items: center;
     justify-content: center;
     margin-top: 15px;
+}
+
+input[type="button"]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomleft {
+    display: inline-block;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.bottomright {
+    display: inline-block;
+    position: relative;
+    float: right;
+    bottom: 0;
+    right: 30px;
 }
