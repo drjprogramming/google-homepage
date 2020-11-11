@@ -1,0 +1,1 @@
+Mimicking the google homepage and showcasing skills learned, i.e. HTML, CSS, Dev Tools
